@@ -4,7 +4,7 @@ import pymysql
 app = Flask(__name__)
 
 def get_db_connection():
-    connection = pymysql.connect(host='mydb.cylck8yh5jkc.eu-central-1.rds.amazonaws.com',  # Replace with your RDS endpoint
+    connection = pymysql.connect(host='mydb.cf6ww6sky79w.eu-west-2.rds.amazonaws.com',  # Replace with your RDS endpoint
                                  user='dbuser',      # Replace with your RDS username
                                  password='dbpassword',  # Replace with your RDS password
                                  db='devprojdb',   # Replace with your database name
